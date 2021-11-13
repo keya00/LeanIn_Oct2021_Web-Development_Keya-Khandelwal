@@ -1,4 +1,4 @@
-/* Navigation */
+
 #navbar {
     flex-direction: column;
 }
@@ -8,7 +8,7 @@
     padding: 0px 7px;
     padding-bottom: 8px;
 }
-/* Home section */
+
 #home{
     height: 370px; 
     padding: 3px 28px;
@@ -23,7 +23,7 @@
     font-weight: 400;
 }
 
-/* Services section  */
+
 #services{
     flex-direction: column;
 }
@@ -34,24 +34,10 @@
     margin-bottom: 20px;
 }
 
-/* Clients section */
-/* #clients{
-    flex-wrap: wrap;
-} */
-
-/* #clients img{
-    width: 66px;
-    padding: 6px;
-    height: auto;
-} */
-
-/* Contact us section */
 #contact-box form{
     width:80%;
 }
-/* Footer */
 
-/* Utility classes */
 .h-primary{
     font-size:26px;
 }
@@ -74,7 +60,7 @@
 
 
 
-/* CSS Reset */
+
 *{
     margin: 0;
     padding: 0;
@@ -84,12 +70,12 @@ html{
     scroll-behavior: smooth;
 }
 
-/* CSS Variables */
+
 :root{
     --navbar-height: 59px;
 }
 
-/* Navigation Bar */
+
 #navbar{
     display: flex;
     align-items: center;
@@ -109,18 +95,6 @@ html{
     opacity: 0.7;
 }
 
-/* Navigation Bar: Logo and Image */
-/* #logo{
-    margin: 10px 34px;
-}
-
-#logo img{
-    height: 59px;
-    margin: 3px 6px;
-} */
-
-
-/* Navigation Bar: List Styling */
 
 #navbar ul{
     display: flex;
@@ -145,7 +119,7 @@ html{
     background-color: white;
 }
 
-/* Home Section */
+
 #home{
     display: flex;
     flex-direction: column;
@@ -181,7 +155,7 @@ html{
     font-size: 1.5rem;
     font-family: 'Bree Serif', serif;
 }
-/* Services Section */
+
 #services{
     margin: 34px;
     display: flex;
@@ -206,15 +180,10 @@ html{
 
 } 
 
-/* Clients Section */
-/* #client-section{ 
-    position: relative;
-} */
+
 
 #client-section::before{
  content: "";
- /* position: absolute; */
- /* background: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2w9x2GNpUnFKf53ny8thvBzu8w0eYka0dzg&usqp=CAU'); */
  width: 100%;
  height: 100%;
  opacity: 0.3;
@@ -236,7 +205,7 @@ html{
 }
 
 
-/* opinion Section */
+
 #opinion{
     position: relative;
 }
